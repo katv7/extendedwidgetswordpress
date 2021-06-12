@@ -1,0 +1,84 @@
+.twrapper .accordionwrap .headercontent{
+	
+	width: 100%;
+	height: 50px;
+	padding: 15px;
+	
+	
+	cursor: pointer;
+	position: relative;
+
+}
+
+.twrapper .accordionwrap .panelcontents{
+	height: 0px;
+	overflow: hidden;
+	transition: all 0.5s ease;
+
+	padding-left: 10px;
+	width: 100%;
+
+}
+
+.twrapper .accordionwrap .headercontent.active+.panelcontents{
+	height: 220px;
+}
+
+.twrapper{
+	
+	margin: 10px auto 0;
+
+}
+
+.twrapper .accordionwrap .headercontent:hover{
+	
+	
+}
+
+.twrapper .accordionwrap .headercontent:before,
+.twrapper .accordionwrap .headercontent:after{
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 15px;
+	width: 20px;
+	height: 2px;
+	background-color: white;
+}
+
+.twrapper .accordionwrap .headercontent:after{
+
+	transform: rotate(-90deg);
+	transition: all 0.5s ease;
+
+	}
+
+.twrapper .accordionwrap .panelcontents{
+
+	
+	
+	display: flex;
+
+}
+
+.twrapper .accordionwrap .headercontent.active{
+	
+}
+
+
+
+.twrapper .accordionwrap .headercontent.active:after{
+    transform: rotate(0);
+}
+
+.forhover:hover{
+	color: white;
+}
+
+.twrapper .accordionwrap .panelcontents p{
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-right: 25px;
+	flex: 1;
+}

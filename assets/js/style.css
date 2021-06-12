@@ -1,0 +1,21 @@
+.packmany{
+        width: 100%;
+        height: auto;
+        padding:10px;
+        text-align: center;
+
+      }
+
+.subros{
+        position: relative;
+        
+        text-align: center;
+        font-size: 2em; 
+        font-weight: bold;
+        color: black; 
+        font-family: 'Amaranth', sans-serif;
+      }
+
+
+
+
